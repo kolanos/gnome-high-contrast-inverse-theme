@@ -1,0 +1,30 @@
+@define-color theme_base_color #003;
+@define-color theme_fg_color #fff;
+@define-color theme_active_color #669;
+@define-color theme_insensitive_color #999;
+@define-color theme_insensitive_bg #033;
+
+@define-color theme_cursor_color #0cc;
+
+/* fallback mode */
+@define-color os_chrome_bg_color #003;
+@define-color os_chrome_fg_color #fff;
+@define-color os_chrome_selected_bg_color #fff;
+@define-color os_chrome_selected_fg_color #669;
+
+* {
+    /* Pidgin */
+    -GtkIMHtml-hyperlink-color: #80ccff;
+    -GtkIMHtml-hyperlink-visited-color: #ff80ff;
+    -GtkIMHtml-hyperlink-prelight-color: #ffccff;
+
+    /* Evolution */
+    -GtkHTML-link-color: #80ccff;
+    -GtkHTML-vlink-color: #ff80ff;
+    -GtkHTML-cite-color: #ccff80;
+
+    -GtkWidget-link-color: #000060;
+    -GtkWidget-visited-link-color: #600000;
+}
+
+@import url("resource:///org/gnome/HighContrastInverse/a11y.css");
