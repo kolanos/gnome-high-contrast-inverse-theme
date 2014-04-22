@@ -1,6 +1,6 @@
 @define-color theme_base_color #000000;
 @define-color theme_fg_color #ffffff;
-@define-color theme_active_color #aaa8ac;
+@define-color theme_active_color #666699;
 @define-color theme_border_color @theme_active_color;
 
 @define-color theme_highlight_color #cb9a5b;

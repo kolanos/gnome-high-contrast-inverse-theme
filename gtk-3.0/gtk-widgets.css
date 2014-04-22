@@ -1,25 +1,25 @@
 /* common color definitions */
 
-@define-color warning_color #faad3d;
+@define-color warning_color #ff4400;
 @define-color warning_bg_color @warning_color;
-@define-color warning_fg_color black;
+@define-color warning_fg_color white;
 
-@define-color question_color #8aadd4;
+@define-color question_color #0000ff;
 @define-color question_bg_color @question_color;
 @define-color question_fg_color white;
 
-@define-color error_color #ed3636;
+@define-color error_color #ff0000;
 @define-color error_bg_color @error_color;
 @define-color error_fg_color white;
 
-@define-color error_color #cc0000;
-@define-color success_color #4e9a06;
+@define-color error_color #ff0000;
+@define-color success_color #00ff00;
 
 /* fallback mode */
-@define-color os_chrome_bg_color black;
+@define-color os_chrome_bg_color white;
 @define-color os_chrome_fg_color #ccc;
 @define-color os_chrome_selected_bg_color #333;
-@define-color os_chrome_selected_fg_color white;
+@define-color os_chrome_selected_fg_color black;
 
 * {
     -GtkRange-stepper-size: 2;
@@ -1195,14 +1195,14 @@ GtkProgressBar.osd.progressbar {
     border-width: 1px;
     border-style: solid;
 
-    box-shadow: 0 2px 8px 3px alpha(black, 0.7);
+    box-shadow: 0 2px 8px 3px alpha(white, 0.7);
 
     /* this is used for the resize cursor area */
     margin: 10px;
 }
 
 .window-frame:backdrop {
-    box-shadow: 0 2px 5px 1px alpha(black, 0.7);
+    box-shadow: 0 2px 5px 1px alpha(white, 0.7);
 }
 
 /**********************
@@ -1346,7 +1346,7 @@ NautilusWindow .pane-separator {
 
 .nautilus-desktop.nautilus-canvas-item {
     color: @theme_base_color;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px white;
 }
 
 .nautilus-desktop.nautilus-canvas-item:selected {
